@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="6dp">
+            <TextView android:textSize="21dp" android:textStyle="bold" android:textColor="#aa0909" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Benefits of Meditative Breathing Pranayama:"/>
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:text="         \n1. It helps to cure insomnia. \n\n2. Positive energy circulates in your body. \n\n3. The oxygen supply throughout the body is increased thus making one feel calm and peaceful. \n\n4. It calms your mind. \n\n5. It improves blood circulation. \n\n6. Keep away the heart-related problems. \n\n7. Provide relaxation to body and mind. \n\n8. It improves your concentration."/>
+            <TextView android:textSize="21dp" android:textStyle="bold" android:textColor="#aa0909" android:layout_width="match_parent" android:layout_height="match_parent" android:text="\nPrecaution for Meditative Breathing:"/>
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:text="                     \n1. Do not do more than 4 rounds at a time.                     \n\n2. Sit with your back straight.                      \n\n3. Make sure that you practice Meditative Breathing 4–5 hours after having your food.\n"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

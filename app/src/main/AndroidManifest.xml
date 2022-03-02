@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pranayama">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+
+    <application
+        android:theme="@style/AppTheme"
+        android:icon="@mipmap/home_page_image"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round">
+
+        <activity android:name="com.example.pranayama.SettingsActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/report" android:name="com.example.pranayama.reportActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.MBreathingBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.MBreathingInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.MBreathingHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.UjjayiBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.UjjayiHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.UjjayiInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.SheetaliInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.SheetaliBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.SheetaliHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.BhastrikaInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.BhastrikaBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.BhastrikaHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.ChandraBhedanaInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.ChandraBhedanaBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.ChandraBhedanaHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.SuryaBhedanaInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.SuryaBhedanaBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.SuryaBhedanaHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.BhramariInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.BhramariBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.BhramariHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.KapalbhatiHelpActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.KapalbhatiInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.KapalbhatiBenefitsActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.AnulomVilomInfoActivity" android:configChanges="uiMode"/>
+        <activity android:name="com.example.pranayama.AnulomVilomBenefitsActivity" android:configChanges="uiMode"/>
+        <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/m_breathing" android:name="com.example.pranayama.MBreathingCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/m_breathing" android:name="com.example.pranayama.MBreathingActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/ujjayi" android:name="com.example.pranayama.UjjayiCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/ujjayi" android:name="com.example.pranayama.UjjayiActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/sheetali" android:name="com.example.pranayama.SheetaliCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/sheetali" android:name="com.example.pranayama.SheetaliActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/bhastrika" android:name="com.example.pranayama.BhastrikaCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/bhastrika" android:name="com.example.pranayama.BhastrikaActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/chandra_bhedana" android:name="com.example.pranayama.ChandraBhedanaCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/chandra_bhedana" android:name="com.example.pranayama.ChandraBhedanaActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/surya_bhedana" android:name="com.example.pranayama.SuryaBhedanaCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/surya_bhedana" android:name="com.example.pranayama.SuryaBhedanaActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/bhramari" android:name="com.example.pranayama.BhramariCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/bhramari" android:name="com.example.pranayama.BhramariActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/kapalbhati" android:name="com.example.pranayama.KapalbhatiCountDownActivity" android:configChanges="uiMode"/>
+        <activity android:label="@string/kapalbhati" android:name="com.example.pranayama.KapalbhatiActivity" android:configChanges="uiMode"/>
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name"
+            android:name="com.example.pranayama.MainActivity"
+            android:configChanges="uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="@string/app_name"
+            android:name="com.example.pranayama.ActivityPranayam"
+            android:configChanges="uiMode"/>
+        <activity
+            android:label="@string/anulom_vilom"
+            android:name="com.example.pranayama.ActivityAnulomVilom"
+            android:configChanges="uiMode"/>
+        <activity
+            android:label="@string/anulom_vilom"
+            android:name="com.example.pranayama.AnulomVilomCountDownActivity"
+            android:configChanges="uiMode"/>
+        <activity
+            android:label="@string/anulom_vilom"
+            android:name="com.example.pranayama.ActivityAnulomVilomHelp"
+            android:configChanges="uiMode"/>
+
+        <activity
+            android:label="@string/menu_sitting_pose"
+            android:name="com.example.pranayama.SittingPoseActivity"
+            android:configChanges="uiMode"/>
+
+        <activity
+            android:label="@string/menu_mudras"
+            android:name="com.example.pranayama.MudrasActivity"
+            android:configChanges="uiMode"/>
+    </application>
+</manifest>

@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhastrika_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhastrika_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_kapalbhati.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_kapalbhati.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhastrika_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhastrika_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_surya_bhedana_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_surya_bhedana_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_surya_bhedana_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_surya_bhedana_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mbreathing_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_mbreathing_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pranayam.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_pranayam.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sitting_pose.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_sitting_pose.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhastrika_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhastrika_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/toolbar.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_anulom_vilom.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_anulom_vilom.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sheetali.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_sheetali.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhramari_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhramari_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_ujjayi.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_ujjayi.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sheetali_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_sheetali_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chandra_bhedana_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_chandra_bhedana_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chandra_bhedana_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_chandra_bhedana_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_kapalbhati_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_kapalbhati_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_kapalbhati_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_kapalbhati_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chandra_bhedana_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_chandra_bhedana_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_surya_bhedana.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_surya_bhedana.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhramari.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhramari.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_bar_main.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sheetali_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_sheetali_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mbreathing_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_mbreathing_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_anulom_vilom_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_anulom_vilom_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mbreathing.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_mbreathing.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chandra_bhedana.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_chandra_bhedana.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_kapalbhati_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_kapalbhati_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chandra_bhedana_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_chandra_bhedana_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhramari_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhramari_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhastrika.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhastrika.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_ujjayi_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_ujjayi_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_settings.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mudras.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_mudras.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mbreathing_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_mbreathing_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_surya_bhedana_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_surya_bhedana_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_ujjayi_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_ujjayi_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhramari_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhramari_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_anulom_vilom_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_anulom_vilom_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sheetali_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_sheetali_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhastrika_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhastrika_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_night_mode.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_night_mode.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_kapalbhati_benefits.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_kapalbhati_benefits.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_anulom_vilom_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_anulom_vilom_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_ujjayi_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_ujjayi_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_dialog.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fab_submenu.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/fab_submenu.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mbreathing_info.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_mbreathing_info.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_ujjayi_count_down.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_ujjayi_count_down.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_surya_bhedana_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_surya_bhedana_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_report.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_report.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sheetali_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_sheetali_help.xml"
+    },
+    {
+        "merged": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bhramari_help.xml",
+        "source": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/res/layout/activity_bhramari_help.xml"
+    }
+]

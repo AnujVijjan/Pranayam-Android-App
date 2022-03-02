@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  <group
+      android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/sitting_pose"
+        android:id="@+id/nav_sitting_pose"
+        android:title="@string/menu_sitting_pose"/>
+    <item
+        android:icon="@drawable/ic_mudras"
+        android:id="@+id/nav_mudras"
+        android:title="@string/menu_mudras"/>
+    <item
+        android:icon="@drawable/night_mode"
+        android:id="@+id/nav_night_mode"
+        android:title="@string/night_mode"
+        app:actionLayout="@layout/activity_night_mode"/>
+  </group>
+</menu>

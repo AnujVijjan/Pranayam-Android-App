@@ -1,0 +1,547 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pranayama"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:7:5-75
+11-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:7:22-73
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:8:5-74
+12-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:8:22-72
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:9:5-70
+13-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:9:22-68
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:10:5-66
+14-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:11:5-78
+15-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:12:5-67
+16-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:13:5-109
+17-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:13:22-107
+18    <uses-permission android:name="com.android.vending.BILLING" />
+18-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:10:5-67
+18-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:10:22-64
+19
+20    <application
+20-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:15:5-106:19
+21        android:name="androidx.multidex.MultiDexApplication"
+22        android:allowBackup="true"
+22-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:18:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/home_page_image"
+25-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:17:9-47
+26        android:label="@string/app_name"
+26-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:20:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:21:9-54
+28        android:supportsRtl="true"
+28-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:16:9-40
+31        <activity
+31-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:23:9-105
+32            android:name="com.example.pranayama.SettingsActivity"
+32-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:23:19-72
+33            android:configChanges="uiMode" />
+33-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:23:73-103
+34        <activity
+34-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:9-134
+35            android:name="com.example.pranayama.reportActivity"
+35-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:50-101
+36            android:configChanges="uiMode"
+36-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:102-132
+37            android:label="@string/report" />
+37-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:19-49
+38        <activity
+38-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:25:9-115
+39            android:name="com.example.pranayama.MBreathingBenefitsActivity"
+39-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:25:19-82
+40            android:configChanges="uiMode" />
+40-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:25:83-113
+41        <activity
+41-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:26:9-111
+42            android:name="com.example.pranayama.MBreathingInfoActivity"
+42-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:26:19-78
+43            android:configChanges="uiMode" />
+43-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:26:79-109
+44        <activity
+44-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:27:9-111
+45            android:name="com.example.pranayama.MBreathingHelpActivity"
+45-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:27:19-78
+46            android:configChanges="uiMode" />
+46-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:27:79-109
+47        <activity
+47-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:28:9-111
+48            android:name="com.example.pranayama.UjjayiBenefitsActivity"
+48-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:28:19-78
+49            android:configChanges="uiMode" />
+49-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:28:79-109
+50        <activity
+50-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:29:9-107
+51            android:name="com.example.pranayama.UjjayiHelpActivity"
+51-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:29:19-74
+52            android:configChanges="uiMode" />
+52-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:29:75-105
+53        <activity
+53-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:30:9-107
+54            android:name="com.example.pranayama.UjjayiInfoActivity"
+54-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:30:19-74
+55            android:configChanges="uiMode" />
+55-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:30:75-105
+56        <activity
+56-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:31:9-109
+57            android:name="com.example.pranayama.SheetaliInfoActivity"
+57-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:31:19-76
+58            android:configChanges="uiMode" />
+58-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:31:77-107
+59        <activity
+59-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:32:9-113
+60            android:name="com.example.pranayama.SheetaliBenefitsActivity"
+60-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:32:19-80
+61            android:configChanges="uiMode" />
+61-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:32:81-111
+62        <activity
+62-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:33:9-109
+63            android:name="com.example.pranayama.SheetaliHelpActivity"
+63-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:33:19-76
+64            android:configChanges="uiMode" />
+64-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:33:77-107
+65        <activity
+65-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:34:9-110
+66            android:name="com.example.pranayama.BhastrikaInfoActivity"
+66-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:34:19-77
+67            android:configChanges="uiMode" />
+67-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:34:78-108
+68        <activity
+68-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:35:9-114
+69            android:name="com.example.pranayama.BhastrikaBenefitsActivity"
+69-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:35:19-81
+70            android:configChanges="uiMode" />
+70-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:35:82-112
+71        <activity
+71-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:36:9-110
+72            android:name="com.example.pranayama.BhastrikaHelpActivity"
+72-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:36:19-77
+73            android:configChanges="uiMode" />
+73-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:36:78-108
+74        <activity
+74-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:37:9-115
+75            android:name="com.example.pranayama.ChandraBhedanaInfoActivity"
+75-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:37:19-82
+76            android:configChanges="uiMode" />
+76-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:37:83-113
+77        <activity
+77-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:38:9-119
+78            android:name="com.example.pranayama.ChandraBhedanaBenefitsActivity"
+78-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:38:19-86
+79            android:configChanges="uiMode" />
+79-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:38:87-117
+80        <activity
+80-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:39:9-115
+81            android:name="com.example.pranayama.ChandraBhedanaHelpActivity"
+81-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:39:19-82
+82            android:configChanges="uiMode" />
+82-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:39:83-113
+83        <activity
+83-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:40:9-113
+84            android:name="com.example.pranayama.SuryaBhedanaInfoActivity"
+84-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:40:19-80
+85            android:configChanges="uiMode" />
+85-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:40:81-111
+86        <activity
+86-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:41:9-117
+87            android:name="com.example.pranayama.SuryaBhedanaBenefitsActivity"
+87-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:41:19-84
+88            android:configChanges="uiMode" />
+88-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:41:85-115
+89        <activity
+89-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:42:9-113
+90            android:name="com.example.pranayama.SuryaBhedanaHelpActivity"
+90-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:42:19-80
+91            android:configChanges="uiMode" />
+91-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:42:81-111
+92        <activity
+92-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:43:9-109
+93            android:name="com.example.pranayama.BhramariInfoActivity"
+93-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:43:19-76
+94            android:configChanges="uiMode" />
+94-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:43:77-107
+95        <activity
+95-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:44:9-113
+96            android:name="com.example.pranayama.BhramariBenefitsActivity"
+96-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:44:19-80
+97            android:configChanges="uiMode" />
+97-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:44:81-111
+98        <activity
+98-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:45:9-109
+99            android:name="com.example.pranayama.BhramariHelpActivity"
+99-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:45:19-76
+100            android:configChanges="uiMode" />
+100-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:45:77-107
+101        <activity
+101-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:46:9-111
+102            android:name="com.example.pranayama.KapalbhatiHelpActivity"
+102-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:46:19-78
+103            android:configChanges="uiMode" />
+103-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:46:79-109
+104        <activity
+104-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:47:9-111
+105            android:name="com.example.pranayama.KapalbhatiInfoActivity"
+105-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:47:19-78
+106            android:configChanges="uiMode" />
+106-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:47:79-109
+107        <activity
+107-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:48:9-115
+108            android:name="com.example.pranayama.KapalbhatiBenefitsActivity"
+108-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:48:19-82
+109            android:configChanges="uiMode" />
+109-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:48:83-113
+110        <activity
+110-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:49:9-112
+111            android:name="com.example.pranayama.AnulomVilomInfoActivity"
+111-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:49:19-79
+112            android:configChanges="uiMode" />
+112-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:49:80-110
+113        <activity
+113-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:50:9-116
+114            android:name="com.example.pranayama.AnulomVilomBenefitsActivity"
+114-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:50:19-83
+115            android:configChanges="uiMode" />
+115-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:50:84-114
+116
+117        <meta-data
+117-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:51:9-104
+118            android:name="android.support.UI_OPTIONS"
+118-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:51:20-61
+119            android:value="splitActionBarWhenNarrow" />
+119-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:51:62-102
+120
+121        <activity
+121-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:9-152
+122            android:name="com.example.pranayama.MBreathingCountDownActivity"
+122-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:55-119
+123            android:configChanges="uiMode"
+123-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:120-150
+124            android:label="@string/m_breathing" />
+124-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:19-54
+125        <activity
+125-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:9-143
+126            android:name="com.example.pranayama.MBreathingActivity"
+126-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:55-110
+127            android:configChanges="uiMode"
+127-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:111-141
+128            android:label="@string/m_breathing" />
+128-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:19-54
+129        <activity
+129-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:9-143
+130            android:name="com.example.pranayama.UjjayiCountDownActivity"
+130-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:50-110
+131            android:configChanges="uiMode"
+131-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:111-141
+132            android:label="@string/ujjayi" />
+132-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:19-49
+133        <activity
+133-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:9-134
+134            android:name="com.example.pranayama.UjjayiActivity"
+134-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:50-101
+135            android:configChanges="uiMode"
+135-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:102-132
+136            android:label="@string/ujjayi" />
+136-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:19-49
+137        <activity
+137-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:9-147
+138            android:name="com.example.pranayama.SheetaliCountDownActivity"
+138-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:52-114
+139            android:configChanges="uiMode"
+139-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:115-145
+140            android:label="@string/sheetali" />
+140-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:19-51
+141        <activity
+141-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:9-138
+142            android:name="com.example.pranayama.SheetaliActivity"
+142-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:52-105
+143            android:configChanges="uiMode"
+143-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:106-136
+144            android:label="@string/sheetali" />
+144-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:19-51
+145        <activity
+145-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:9-149
+146            android:name="com.example.pranayama.BhastrikaCountDownActivity"
+146-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:53-116
+147            android:configChanges="uiMode"
+147-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:117-147
+148            android:label="@string/bhastrika" />
+148-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:19-52
+149        <activity
+149-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:9-140
+150            android:name="com.example.pranayama.BhastrikaActivity"
+150-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:53-107
+151            android:configChanges="uiMode"
+151-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:108-138
+152            android:label="@string/bhastrika" />
+152-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:19-52
+153        <activity
+153-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:9-160
+154            android:name="com.example.pranayama.ChandraBhedanaCountDownActivity"
+154-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:59-127
+155            android:configChanges="uiMode"
+155-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:128-158
+156            android:label="@string/chandra_bhedana" />
+156-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:19-58
+157        <activity
+157-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:9-151
+158            android:name="com.example.pranayama.ChandraBhedanaActivity"
+158-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:59-118
+159            android:configChanges="uiMode"
+159-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:119-149
+160            android:label="@string/chandra_bhedana" />
+160-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:19-58
+161        <activity
+161-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:9-156
+162            android:name="com.example.pranayama.SuryaBhedanaCountDownActivity"
+162-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:57-123
+163            android:configChanges="uiMode"
+163-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:124-154
+164            android:label="@string/surya_bhedana" />
+164-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:19-56
+165        <activity
+165-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:9-147
+166            android:name="com.example.pranayama.SuryaBhedanaActivity"
+166-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:57-114
+167            android:configChanges="uiMode"
+167-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:115-145
+168            android:label="@string/surya_bhedana" />
+168-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:19-56
+169        <activity
+169-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:9-147
+170            android:name="com.example.pranayama.BhramariCountDownActivity"
+170-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:52-114
+171            android:configChanges="uiMode"
+171-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:115-145
+172            android:label="@string/bhramari" />
+172-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:19-51
+173        <activity
+173-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:9-138
+174            android:name="com.example.pranayama.BhramariActivity"
+174-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:52-105
+175            android:configChanges="uiMode"
+175-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:106-136
+176            android:label="@string/bhramari" />
+176-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:19-51
+177        <activity
+177-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:9-151
+178            android:name="com.example.pranayama.KapalbhatiCountDownActivity"
+178-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:54-118
+179            android:configChanges="uiMode"
+179-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:119-149
+180            android:label="@string/kapalbhati" />
+180-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:19-53
+181        <activity
+181-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:9-142
+182            android:name="com.example.pranayama.KapalbhatiActivity"
+182-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:54-109
+183            android:configChanges="uiMode"
+183-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:110-140
+184            android:label="@string/kapalbhati" />
+184-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:19-53
+185        <activity
+185-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:69:9-78:20
+186            android:name="com.example.pranayama.MainActivity"
+186-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:72:13-62
+187            android:configChanges="uiMode"
+187-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:73:13-43
+188            android:label="@string/app_name"
+188-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:71:13-45
+189            android:theme="@style/AppTheme.NoActionBar" >
+189-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:70:13-56
+190            <intent-filter>
+190-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:74:13-77:29
+191                <action android:name="android.intent.action.MAIN" />
+191-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:75:17-68
+191-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:75:25-66
+192
+193                <category android:name="android.intent.category.LAUNCHER" />
+193-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:76:17-76
+193-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:76:27-74
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:80:9-83:45
+197            android:name="com.example.pranayama.ActivityPranayam"
+197-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:82:13-66
+198            android:configChanges="uiMode"
+198-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:83:13-43
+199            android:label="@string/app_name" />
+199-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:81:13-45
+200        <activity
+200-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:84:9-87:45
+201            android:name="com.example.pranayama.ActivityAnulomVilom"
+201-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:86:13-69
+202            android:configChanges="uiMode"
+202-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:87:13-43
+203            android:label="@string/anulom_vilom" />
+203-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:85:13-49
+204        <activity
+204-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:88:9-91:45
+205            android:name="com.example.pranayama.AnulomVilomCountDownActivity"
+205-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:90:13-78
+206            android:configChanges="uiMode"
+206-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:91:13-43
+207            android:label="@string/anulom_vilom" />
+207-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:89:13-49
+208        <activity
+208-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:92:9-95:45
+209            android:name="com.example.pranayama.ActivityAnulomVilomHelp"
+209-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:94:13-73
+210            android:configChanges="uiMode"
+210-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:95:13-43
+211            android:label="@string/anulom_vilom" />
+211-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:93:13-49
+212        <activity
+212-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:97:9-100:45
+213            android:name="com.example.pranayama.SittingPoseActivity"
+213-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:99:13-69
+214            android:configChanges="uiMode"
+214-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:100:13-43
+215            android:label="@string/menu_sitting_pose" />
+215-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:98:13-54
+216        <activity
+216-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:102:9-105:45
+217            android:name="com.example.pranayama.MudrasActivity"
+217-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:104:13-64
+218            android:configChanges="uiMode"
+218-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:105:13-43
+219            android:label="@string/menu_mudras" />
+219-->/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:103:13-48
+220
+221        <service
+221-->[com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:29:9-35:19
+222            android:name="com.google.firebase.components.ComponentDiscoveryService"
+222-->[com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:30:13-84
+223            android:directBootAware="true"
+223-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+224            android:exported="false" >
+224-->[com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:31:13-37
+225            <meta-data
+225-->[com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+226                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+226-->[com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+228            <meta-data
+228-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+229                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+229-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+231            <meta-data
+231-->[com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+232                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+232-->[com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+234        </service>
+235
+236        <provider
+236-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+237            android:name="com.google.firebase.provider.FirebaseInitProvider"
+237-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+238            android:authorities="com.example.pranayama.firebaseinitprovider"
+238-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+239            android:directBootAware="true"
+239-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+240            android:exported="false"
+240-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+241            android:initOrder="100" />
+241-->[com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+242
+243        <activity
+243-->[com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+244            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+244-->[com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+246-->[com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+247
+248        <receiver
+248-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+249            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+249-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+250            android:enabled="true"
+250-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+251            android:exported="false" >
+251-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+252        </receiver>
+253
+254        <service
+254-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+255            android:name="com.google.android.gms.measurement.AppMeasurementService"
+255-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+256            android:enabled="true"
+256-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+257            android:exported="false" />
+257-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+258        <service
+258-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+259            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+259-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+260            android:enabled="true"
+260-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+261            android:exported="false"
+261-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+262            android:permission="android.permission.BIND_JOB_SERVICE" />
+262-->[com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+263
+264        <meta-data
+264-->[com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+265            android:name="com.google.android.gms.version"
+265-->[com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+266            android:value="@integer/google_play_services_version" />
+266-->[com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+267
+268        <provider
+268-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+269            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+269-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+270            android:authorities="com.example.pranayama.lifecycle-process"
+270-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+271            android:exported="false"
+271-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+272            android:multiprocess="true" />
+272-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+273
+274        <meta-data
+274-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:13:9-15:37
+275            android:name="com.google.android.play.billingclient.version"
+275-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:14:13-73
+276            android:value="2.0.1" />
+276-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:15:13-34
+277
+278        <activity
+278-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:17:9-20:75
+279            android:name="com.android.billingclient.api.ProxyBillingActivity"
+279-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:18:13-78
+280            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+280-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:19:13-96
+281            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+281-->[com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:20:13-72
+282    </application>
+283
+284</manifest>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/anuj/.gradle/caches/transforms-2/files-2.1/0c0425221665170279adc6e5dc9a86c0/appcompat-1.3.0/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

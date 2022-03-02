@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/home/anuj/.gradle/caches/transforms-2/files-2.1/09485fa2c8da9ee1dbb0f348ce38f16b/material-1.3.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,76",
+                        "endOffsets": "102,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

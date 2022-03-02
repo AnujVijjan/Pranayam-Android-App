@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp">
+            <TextView android:textSize="21dp" android:textStyle="bold"
+                android:textColor="#aa0909" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:text="\nHow to Start Bhramari Pranayam: "/>
+            <TextView android:textSize="14dp" android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n1. Sit in Sukhasana, Padmasana or any sitting posture in which you feel comfortable.                     \n\n2. Inhale and exhale to make the body comfortable.                     \n\n3. Close eyes and mouth. rise your both hand palm.                     \n\n4. Make a postion of both hand palm that your thumb is closing ears. make sure your ear is close soft not forcefully by using thumb.                     \n\n5. Place two finger on eyes.                     \n\n6. Block your nose using finger. ( nose should block in this manner that inhale and exhale can be done easily.                     \n\n7. Now inhale you can use our app pranayama to set timmer of inhale.                     \n\n8. Exhale with om sound                     \n\n9. Repeat process."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

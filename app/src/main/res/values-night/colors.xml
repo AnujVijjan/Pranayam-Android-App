@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#f44336</color>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="primaryBackgroundColor">#212121</color>
+    <color name="primaryCardBackgroundColor">#424242</color>
+    <color name="primaryDateColor">#b3ffffff</color>
+    <color name="primaryDescriptionColor">#b3ffffff</color>
+    <color name="primaryTitleColor">#ffffff</color>
+    <color name="primaryTimerColor">#41918989</color>
+
+</resources>

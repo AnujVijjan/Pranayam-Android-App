@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp">
+            <TextView android:textSize="21dp" android:textStyle="bold" android:textColor="#aa0909" android:layout_width="match_parent" android:layout_height="match_parent" android:text="How to Start Sheetali Pranayam: "/>
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:text="         \n1. Sit any Comfortable  Pose Sukashan, Vajrasna, Padmasana. \n\n2. Close your eyes. \n\n3. Now place your hands on the knees in Gyanamudra or Anjalimudra. And leave your body loose. \n\n4. Then take out the tongue and fold it in such a way that it becomes like the shape of a tube or tube. \n\n5. Then breathe slowly through the mouth through this tube. The air will pass through this tube to cool the mouth, palate and throat. \n\n6. Fill the stomach with air. \n\n7. Now turn the tongue inward and close the mouth. \n\n8. After this, by bending your neck forward, attach the front part of your jaw to the chest. \n\n9. Hold your breath by closing your mouth and nostril. ( Do hold your breath according to your comfort level) \n\n10. Now straighten the neck from the back and let the air out of the nose. \n\n11. Try to exhale, exceed the time of inhaling. \n\n12. One can practice this pranayama ten times. After the practice of Pranayama, it can be extended in the summer season as per the requirement."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

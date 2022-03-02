@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/back_button"
+        android:layout_alignParentStart="true"
+        android:onClick="onBackButtonClicked"/>
+
+    <TextView
+        android:id="@+id/avTitle"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_toStartOf="@id/reset_button"
+        android:layout_toEndOf="@+id/back_button"
+        android:textColor="#ffffff" />
+    <ImageView
+        android:id="@+id/reset_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/reset"
+        android:layout_alignParentEnd="true"
+        android:onClick="onResetButtonClicked"/>
+</RelativeLayout>

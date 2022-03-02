@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp">
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:text=" \nPranayama yoga ancient time breathing exercises practiced for purifying prana flow for longevity. Well, Ujjayi Pranayama daily practice slow the breathe, clean the nadis with healing benefits such as  improve immune systems of the body.  \n\n Ujjayi is a Sanskrit word that is comprised of two words:  \n\n-“Uj” which is a prefix that means moving upward,  \n\n-“Jaya” which means conquest or victory.  \n\nHence, the word Ujjayi means the “one who is victorious”, and the Ujjayi Breath means the “victorious breath”.  \n\nThe other reason why Ujjayi is termed so is that it is essentially a method via which the lungs are expanded fully in all directions, and the chest expands as well as move upwards which is similar to that of a victorious warrior."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

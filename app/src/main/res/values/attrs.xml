@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <attr name="colorPrimary" format="color"/>
+
+        <attr name="colorPrimaryDark" format="color"/>
+
+        <attr name="colorPrimarySurface" format="color"/>
+
+        <attr name="colorPrimaryVariant" format="color"/>
+
+        <attr name="primaryDescriptionColor" format="color"/>
+
+        <attr name="drawerArrowStyle" format="reference"/>
+
+        <attr name="intro" format="reference"/>
+
+        <attr name="primaryBackgroundColor" format="color"/>
+
+        <attr name="primaryCardBackgroundColor" format="color"/>
+
+        <attr name="primaryDateColor" format="color"/>
+
+        <attr name="primaryTitleColor" format="color"/>
+</resources>

@@ -1,0 +1,880 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+MERGED from [androidx.databinding:viewbinding:4.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/eb00a530507e7a444267be40975e8139/viewbinding-4.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/b7d58de536afba871511d6d653bf4fc4/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/a1ff65ace899018cf41dab46a25c4e07/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/09485fa2c8da9ee1dbb0f348ce38f16b/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/26ad29f0c215a030737602403272bc92/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-preference-v14:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/482e1208ca389190035b1859f7ad82c3/legacy-preference-v14-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/33ddb2e1922280a9e16eb6808230ab28/preference-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/0c0425221665170279adc6e5dc9a86c0/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/68c0c69b3f989281f7ecf6273c9d64c3/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/935e9d6db8c1dc3801bde8092659cc4d/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/0d5d38b609bd5fcfde2c21ddec0dcb33/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3e16492d55811a66514202ed8c4be8e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-core:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3834d0063b25e3b0bee18a24b7d62959/firebase-core-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/97a65048d738d2295aa369e23aa54a82/firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/4de8fc4911acb18e307146361eeceaf7/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] /home/anuj/.gradle/caches/transforms-2/files-2.1/04dfa05804e5ce0b53b1c999b704a973/android-gif-drawable-1.2.22/AndroidManifest.xml:2:1-9:12
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/9f2a221106ebe4cd415e578abe4a183b/library-1.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/anuj/.gradle/caches/transforms-2/files-2.1/edf055c438ce4aa10b87562f5975e979/firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/anuj/.gradle/caches/transforms-2/files-2.1/17baf3e281bf3c6b441167197af98ca2/firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/ecf40270a74fd9c9ffa844a878f2fdf0/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/357702b34548339a633bc389c2c9d535/firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/27f4e6e48b9010fcbf0a95b8b3916a44/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fef184fde6f318bd737ac52638f2c47e/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8e48c96cb77021e635175367594340a1/play-services-measurement-sdk-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/75cefe2deb2aafc9736c62c71e49b933/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/95405f0a9692a4f0e9890849024ac6dd/play-services-measurement-base-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/abac50309fa3ee6f28181f1925b30ab7/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/42bc5052c772a3a7e8fb2518ff07531e/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/04883daa8ea9516640b4b6f9b2919617/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/364ba9a4b1757881a4cbff75509a9a3c/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /home/anuj/.gradle/caches/transforms-2/files-2.1/5dc9f96d9fa646352c0a543068658e03/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d6dd2ac7c49278ec68f90a3d78de69b0/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/73d54ef24c75b9e8f6e4122f37a14dde/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/363ac17d4d21b7aea6f6fd277e2744f0/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/4d06d47c8daac3af87275fe6ba923c6b/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e99b4288cfe69f893dc3a0f7f45d39bf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/7b0f8e4d3a193fc0b6b919d1b4d024e2/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8499476ef1211f069c95d4c6948e0ef6/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fe4612a2556647a2df226051e919958d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2f38522e279566581237cf31deee05c7/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/6a1bd6d2ece4b11ebc5fe8e79416537d/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/278e14342a4f709fa4d1ade5cf3d737d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/40ea40c50aa235532a74f717ab7bee30/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/5bad2f78d4525c06a2cfd7db81ece83f/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2b6190114dafe485bf325475ac62ab76/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/77793bfdaad25f3fe2c6c4761e4da0cc/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8fe8a4fb6d703586d431f7d64c73c370/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/da91f493d175360f83af44d59c69007b/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/d76ae9ac43c3252acceea3d5d0374ba2/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/e7dbe83ad6086a9a88244fd99c20bbc3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/343a9c0983dab0abb25816532a29bcb5/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/1de67b3e6a36bf687be63a1c2119ff5f/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/cdfa7122864fb215a04c59579417c942/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2dd0cd0d8418175e63f0a4ecdcd88984/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c47dad14778530916771ac1c38e215ee/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/6c5a0edd64fcfc0739abc1c6fbaf1ca6/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e0c30264195c80722e76109b2e723443/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e70a39d63c66c3f6df55dc6d7f3924d7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/ae41cdfced462e68ae93b82f66a21f69/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/78ad18ef9460da64208caf82c0831df3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/9a9746a3648e14cd1edbe8994a3697cc/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a7c2eacf0d021394f54e2d978f06fa3/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/fd928a1c1b956ef7de0b151ce821ad56/relinker-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:2:1-23:12
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+	package
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:5:5-36
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:2:1-107:12
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:3:5-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:10:5-66
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:11:5-78
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:13:5-109
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:13:22-107
+application
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:15:5-106:19
+MERGED from [com.google.android.material:material:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/09485fa2c8da9ee1dbb0f348ce38f16b/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/09485fa2c8da9ee1dbb0f348ce38f16b/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/26ad29f0c215a030737602403272bc92/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/26ad29f0c215a030737602403272bc92/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3e16492d55811a66514202ed8c4be8e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3e16492d55811a66514202ed8c4be8e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-core:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3834d0063b25e3b0bee18a24b7d62959/firebase-core-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3834d0063b25e3b0bee18a24b7d62959/firebase-core-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/97a65048d738d2295aa369e23aa54a82/firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/97a65048d738d2295aa369e23aa54a82/firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/anuj/.gradle/caches/transforms-2/files-2.1/edf055c438ce4aa10b87562f5975e979/firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/anuj/.gradle/caches/transforms-2/files-2.1/edf055c438ce4aa10b87562f5975e979/firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/anuj/.gradle/caches/transforms-2/files-2.1/17baf3e281bf3c6b441167197af98ca2/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/anuj/.gradle/caches/transforms-2/files-2.1/17baf3e281bf3c6b441167197af98ca2/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fef184fde6f318bd737ac52638f2c47e/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fef184fde6f318bd737ac52638f2c47e/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8e48c96cb77021e635175367594340a1/play-services-measurement-sdk-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8e48c96cb77021e635175367594340a1/play-services-measurement-sdk-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/75cefe2deb2aafc9736c62c71e49b933/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/75cefe2deb2aafc9736c62c71e49b933/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/95405f0a9692a4f0e9890849024ac6dd/play-services-measurement-base-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/95405f0a9692a4f0e9890849024ac6dd/play-services-measurement-base-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/abac50309fa3ee6f28181f1925b30ab7/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/abac50309fa3ee6f28181f1925b30ab7/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/42bc5052c772a3a7e8fb2518ff07531e/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/42bc5052c772a3a7e8fb2518ff07531e/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/6c5a0edd64fcfc0739abc1c6fbaf1ca6/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/6c5a0edd64fcfc0739abc1c6fbaf1ca6/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:12:5-21:19
+MERGED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:12:5-21:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:17:9-47
+	android:allowBackup
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:16:9-40
+activity#com.example.pranayama.SettingsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:23:9-105
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:23:73-103
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:23:19-72
+activity#com.example.pranayama.reportActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:9-134
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:19-49
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:102-132
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:24:50-101
+activity#com.example.pranayama.MBreathingBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:25:9-115
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:25:83-113
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:25:19-82
+activity#com.example.pranayama.MBreathingInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:26:9-111
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:26:79-109
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:26:19-78
+activity#com.example.pranayama.MBreathingHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:27:9-111
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:27:79-109
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:27:19-78
+activity#com.example.pranayama.UjjayiBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:28:9-111
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:28:79-109
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:28:19-78
+activity#com.example.pranayama.UjjayiHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:29:9-107
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:29:75-105
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:29:19-74
+activity#com.example.pranayama.UjjayiInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:30:9-107
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:30:75-105
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:30:19-74
+activity#com.example.pranayama.SheetaliInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:31:9-109
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:31:77-107
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:31:19-76
+activity#com.example.pranayama.SheetaliBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:32:9-113
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:32:81-111
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:32:19-80
+activity#com.example.pranayama.SheetaliHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:33:9-109
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:33:77-107
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:33:19-76
+activity#com.example.pranayama.BhastrikaInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:34:9-110
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:34:78-108
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:34:19-77
+activity#com.example.pranayama.BhastrikaBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:35:9-114
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:35:82-112
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:35:19-81
+activity#com.example.pranayama.BhastrikaHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:36:9-110
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:36:78-108
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:36:19-77
+activity#com.example.pranayama.ChandraBhedanaInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:37:9-115
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:37:83-113
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:37:19-82
+activity#com.example.pranayama.ChandraBhedanaBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:38:9-119
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:38:87-117
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:38:19-86
+activity#com.example.pranayama.ChandraBhedanaHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:39:9-115
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:39:83-113
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:39:19-82
+activity#com.example.pranayama.SuryaBhedanaInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:40:9-113
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:40:81-111
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:40:19-80
+activity#com.example.pranayama.SuryaBhedanaBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:41:9-117
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:41:85-115
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:41:19-84
+activity#com.example.pranayama.SuryaBhedanaHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:42:9-113
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:42:81-111
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:42:19-80
+activity#com.example.pranayama.BhramariInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:43:9-109
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:43:77-107
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:43:19-76
+activity#com.example.pranayama.BhramariBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:44:9-113
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:44:81-111
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:44:19-80
+activity#com.example.pranayama.BhramariHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:45:9-109
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:45:77-107
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:45:19-76
+activity#com.example.pranayama.KapalbhatiHelpActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:46:9-111
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:46:79-109
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:46:19-78
+activity#com.example.pranayama.KapalbhatiInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:47:9-111
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:47:79-109
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:47:19-78
+activity#com.example.pranayama.KapalbhatiBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:48:9-115
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:48:83-113
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:48:19-82
+activity#com.example.pranayama.AnulomVilomInfoActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:49:9-112
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:49:80-110
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:49:19-79
+activity#com.example.pranayama.AnulomVilomBenefitsActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:50:9-116
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:50:84-114
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:50:19-83
+meta-data#android.support.UI_OPTIONS
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:51:9-104
+	android:value
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:51:62-102
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:51:20-61
+activity#com.example.pranayama.MBreathingCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:9-152
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:19-54
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:120-150
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:52:55-119
+activity#com.example.pranayama.MBreathingActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:9-143
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:19-54
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:111-141
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:53:55-110
+activity#com.example.pranayama.UjjayiCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:9-143
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:19-49
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:111-141
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:54:50-110
+activity#com.example.pranayama.UjjayiActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:9-134
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:19-49
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:102-132
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:55:50-101
+activity#com.example.pranayama.SheetaliCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:9-147
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:19-51
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:115-145
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:56:52-114
+activity#com.example.pranayama.SheetaliActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:9-138
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:19-51
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:106-136
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:57:52-105
+activity#com.example.pranayama.BhastrikaCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:9-149
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:19-52
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:117-147
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:58:53-116
+activity#com.example.pranayama.BhastrikaActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:9-140
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:19-52
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:108-138
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:59:53-107
+activity#com.example.pranayama.ChandraBhedanaCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:9-160
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:19-58
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:128-158
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:60:59-127
+activity#com.example.pranayama.ChandraBhedanaActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:9-151
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:19-58
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:119-149
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:61:59-118
+activity#com.example.pranayama.SuryaBhedanaCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:9-156
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:19-56
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:124-154
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:62:57-123
+activity#com.example.pranayama.SuryaBhedanaActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:9-147
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:19-56
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:115-145
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:63:57-114
+activity#com.example.pranayama.BhramariCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:9-147
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:19-51
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:115-145
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:64:52-114
+activity#com.example.pranayama.BhramariActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:9-138
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:19-51
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:106-136
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:65:52-105
+activity#com.example.pranayama.KapalbhatiCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:9-151
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:19-53
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:119-149
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:66:54-118
+activity#com.example.pranayama.KapalbhatiActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:9-142
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:19-53
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:110-140
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:67:54-109
+activity#com.example.pranayama.MainActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:69:9-78:20
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:71:13-45
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:73:13-43
+	android:theme
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:70:13-56
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:72:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:74:13-77:29
+action#android.intent.action.MAIN
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:75:17-68
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:76:17-76
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:76:27-74
+activity#com.example.pranayama.ActivityPranayam
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:80:9-83:45
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:81:13-45
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:82:13-66
+activity#com.example.pranayama.ActivityAnulomVilom
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:84:9-87:45
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:85:13-49
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:87:13-43
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:86:13-69
+activity#com.example.pranayama.AnulomVilomCountDownActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:88:9-91:45
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:89:13-49
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:91:13-43
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:90:13-78
+activity#com.example.pranayama.ActivityAnulomVilomHelp
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:92:9-95:45
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:93:13-49
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:95:13-43
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:94:13-73
+activity#com.example.pranayama.SittingPoseActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:97:9-100:45
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:98:13-54
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:100:13-43
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:99:13-69
+activity#com.example.pranayama.MudrasActivity
+ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:102:9-105:45
+	android:label
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:103:13-48
+	android:configChanges
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:105:13-43
+	android:name
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml:104:13-64
+uses-sdk
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/eb00a530507e7a444267be40975e8139/viewbinding-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/eb00a530507e7a444267be40975e8139/viewbinding-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/b7d58de536afba871511d6d653bf4fc4/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/b7d58de536afba871511d6d653bf4fc4/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/a1ff65ace899018cf41dab46a25c4e07/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/a1ff65ace899018cf41dab46a25c4e07/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/09485fa2c8da9ee1dbb0f348ce38f16b/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/09485fa2c8da9ee1dbb0f348ce38f16b/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/26ad29f0c215a030737602403272bc92/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/26ad29f0c215a030737602403272bc92/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-preference-v14:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/482e1208ca389190035b1859f7ad82c3/legacy-preference-v14-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-preference-v14:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/482e1208ca389190035b1859f7ad82c3/legacy-preference-v14-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/33ddb2e1922280a9e16eb6808230ab28/preference-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/33ddb2e1922280a9e16eb6808230ab28/preference-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/0c0425221665170279adc6e5dc9a86c0/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/0c0425221665170279adc6e5dc9a86c0/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/68c0c69b3f989281f7ecf6273c9d64c3/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/68c0c69b3f989281f7ecf6273c9d64c3/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/935e9d6db8c1dc3801bde8092659cc4d/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/935e9d6db8c1dc3801bde8092659cc4d/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/0d5d38b609bd5fcfde2c21ddec0dcb33/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/0d5d38b609bd5fcfde2c21ddec0dcb33/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3e16492d55811a66514202ed8c4be8e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3e16492d55811a66514202ed8c4be8e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-core:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3834d0063b25e3b0bee18a24b7d62959/firebase-core-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3834d0063b25e3b0bee18a24b7d62959/firebase-core-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/97a65048d738d2295aa369e23aa54a82/firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/97a65048d738d2295aa369e23aa54a82/firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/4de8fc4911acb18e307146361eeceaf7/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/4de8fc4911acb18e307146361eeceaf7/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] /home/anuj/.gradle/caches/transforms-2/files-2.1/04dfa05804e5ce0b53b1c999b704a973/android-gif-drawable-1.2.22/AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] /home/anuj/.gradle/caches/transforms-2/files-2.1/04dfa05804e5ce0b53b1c999b704a973/android-gif-drawable-1.2.22/AndroidManifest.xml:5:5-7:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/9f2a221106ebe4cd415e578abe4a183b/library-1.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/9f2a221106ebe4cd415e578abe4a183b/library-1.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/anuj/.gradle/caches/transforms-2/files-2.1/edf055c438ce4aa10b87562f5975e979/firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/anuj/.gradle/caches/transforms-2/files-2.1/edf055c438ce4aa10b87562f5975e979/firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/anuj/.gradle/caches/transforms-2/files-2.1/17baf3e281bf3c6b441167197af98ca2/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/anuj/.gradle/caches/transforms-2/files-2.1/17baf3e281bf3c6b441167197af98ca2/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/ecf40270a74fd9c9ffa844a878f2fdf0/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/ecf40270a74fd9c9ffa844a878f2fdf0/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/357702b34548339a633bc389c2c9d535/firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/357702b34548339a633bc389c2c9d535/firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/27f4e6e48b9010fcbf0a95b8b3916a44/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/27f4e6e48b9010fcbf0a95b8b3916a44/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fef184fde6f318bd737ac52638f2c47e/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fef184fde6f318bd737ac52638f2c47e/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8e48c96cb77021e635175367594340a1/play-services-measurement-sdk-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8e48c96cb77021e635175367594340a1/play-services-measurement-sdk-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/dfb7c7d6e03bc9cede6142943c8f5c7c/play-services-measurement-impl-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/75cefe2deb2aafc9736c62c71e49b933/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/75cefe2deb2aafc9736c62c71e49b933/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a9ad8fa15010a000b8a7811b6935a40/play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/95405f0a9692a4f0e9890849024ac6dd/play-services-measurement-base-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/95405f0a9692a4f0e9890849024ac6dd/play-services-measurement-base-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/abac50309fa3ee6f28181f1925b30ab7/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/abac50309fa3ee6f28181f1925b30ab7/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/42bc5052c772a3a7e8fb2518ff07531e/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/42bc5052c772a3a7e8fb2518ff07531e/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/04883daa8ea9516640b4b6f9b2919617/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/anuj/.gradle/caches/transforms-2/files-2.1/04883daa8ea9516640b4b6f9b2919617/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/364ba9a4b1757881a4cbff75509a9a3c/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/364ba9a4b1757881a4cbff75509a9a3c/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/anuj/.gradle/caches/transforms-2/files-2.1/5dc9f96d9fa646352c0a543068658e03/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/anuj/.gradle/caches/transforms-2/files-2.1/5dc9f96d9fa646352c0a543068658e03/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d6dd2ac7c49278ec68f90a3d78de69b0/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d6dd2ac7c49278ec68f90a3d78de69b0/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/73d54ef24c75b9e8f6e4122f37a14dde/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/73d54ef24c75b9e8f6e4122f37a14dde/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/363ac17d4d21b7aea6f6fd277e2744f0/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/363ac17d4d21b7aea6f6fd277e2744f0/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/4d06d47c8daac3af87275fe6ba923c6b/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/4d06d47c8daac3af87275fe6ba923c6b/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e99b4288cfe69f893dc3a0f7f45d39bf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e99b4288cfe69f893dc3a0f7f45d39bf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/7b0f8e4d3a193fc0b6b919d1b4d024e2/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/7b0f8e4d3a193fc0b6b919d1b4d024e2/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8499476ef1211f069c95d4c6948e0ef6/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8499476ef1211f069c95d4c6948e0ef6/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fe4612a2556647a2df226051e919958d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/fe4612a2556647a2df226051e919958d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2f38522e279566581237cf31deee05c7/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2f38522e279566581237cf31deee05c7/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/6a1bd6d2ece4b11ebc5fe8e79416537d/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/6a1bd6d2ece4b11ebc5fe8e79416537d/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/278e14342a4f709fa4d1ade5cf3d737d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/278e14342a4f709fa4d1ade5cf3d737d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/40ea40c50aa235532a74f717ab7bee30/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/40ea40c50aa235532a74f717ab7bee30/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/5bad2f78d4525c06a2cfd7db81ece83f/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/anuj/.gradle/caches/transforms-2/files-2.1/5bad2f78d4525c06a2cfd7db81ece83f/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/76a59d458fc4d86babe02376c86f9680/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2b6190114dafe485bf325475ac62ab76/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2b6190114dafe485bf325475ac62ab76/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/77793bfdaad25f3fe2c6c4761e4da0cc/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/77793bfdaad25f3fe2c6c4761e4da0cc/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8fe8a4fb6d703586d431f7d64c73c370/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/8fe8a4fb6d703586d431f7d64c73c370/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/da91f493d175360f83af44d59c69007b/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/da91f493d175360f83af44d59c69007b/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/d76ae9ac43c3252acceea3d5d0374ba2/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/d76ae9ac43c3252acceea3d5d0374ba2/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/e7dbe83ad6086a9a88244fd99c20bbc3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/e7dbe83ad6086a9a88244fd99c20bbc3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/343a9c0983dab0abb25816532a29bcb5/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/343a9c0983dab0abb25816532a29bcb5/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/1de67b3e6a36bf687be63a1c2119ff5f/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/1de67b3e6a36bf687be63a1c2119ff5f/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/cdfa7122864fb215a04c59579417c942/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/cdfa7122864fb215a04c59579417c942/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2dd0cd0d8418175e63f0a4ecdcd88984/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/2dd0cd0d8418175e63f0a4ecdcd88984/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c47dad14778530916771ac1c38e215ee/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c47dad14778530916771ac1c38e215ee/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/6c5a0edd64fcfc0739abc1c6fbaf1ca6/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/6c5a0edd64fcfc0739abc1c6fbaf1ca6/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e0c30264195c80722e76109b2e723443/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e0c30264195c80722e76109b2e723443/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e70a39d63c66c3f6df55dc6d7f3924d7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/e70a39d63c66c3f6df55dc6d7f3924d7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/ae41cdfced462e68ae93b82f66a21f69/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/ae41cdfced462e68ae93b82f66a21f69/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/78ad18ef9460da64208caf82c0831df3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/78ad18ef9460da64208caf82c0831df3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/9a9746a3648e14cd1edbe8994a3697cc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/9a9746a3648e14cd1edbe8994a3697cc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a7c2eacf0d021394f54e2d978f06fa3/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7a7c2eacf0d021394f54e2d978f06fa3/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/fd928a1c1b956ef7de0b151ce821ad56/relinker-1.4.1/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/fd928a1c1b956ef7de0b151ce821ad56/relinker-1.4.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:6:5-8:41
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		ADDED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anuj/DCA0DE1EA0DDFEC8/Programming/Projects/Pranayam-Android-App/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/56547a7645d3e25f504753b258edbe71/firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/c28528f6ba0aead42be55cfa4ea3efa9/play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/d5d2b9be93a41db13fc05996a0f20709/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/7fe7d52a4a83127be03df95693caaffd/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/77fd6f61bad9bcb866e9b2d6b91cf059/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/f2e256c319a07c2f41157b76c86c75ae/play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/3dde20c6c5c3009a0374634dbc847444/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/anuj/.gradle/caches/transforms-2/files-2.1/addd76f8d349149cd2205f4dab63deb7/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:17:9-20:75
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:20:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:2.0.1] /home/anuj/.gradle/caches/transforms-2/files-2.1/692daf1dee5ea8fb50e368975c5118b6/billing-2.0.1/AndroidManifest.xml:18:13-78

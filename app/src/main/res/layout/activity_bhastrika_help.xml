@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp">
+            <TextView 
+                android:textSize="21dp" 
+                android:textStyle="bold" 
+                android:textColor="#aa0909" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent" 
+                android:text="\nHow to Start Bhastrika Pranayam: "/>
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" 
+                android:layout_height="match_parent" 
+                android:text="\n1. First of all, place a mat on a clean and flat place and sit on it in some position Padmasana or Sukhasana. \n\n2. We advise you to sit with your backbone straight and make sure to close your eyes. Keep both your hands straight at the knees and join the index finger with the thumb or Gyan mudra. \n\n3. Sit in meditation for a while. \n\n4. Now take deep breaths through both the nostrils while making sure that your mouth does not open at all while doing this exercise. \n\n5. In the process of breathing, your lungs should swell up completely. \n\n6. After this, you have to release the filled breath through both the nostrils in one stroke. \n\n7. The speed of inhalation and exhalation should be as rapid as that of “blower” and the inhalation should be taken in and out completely. \n\n8. Breathe inward again and forcefully exit it again. \n\n9. The exhalation speed should be so rapid that the lungs should shrink with shock. \n\n10. A cycle of Bhastrika Pranayama completes from breathing to quitting. \n\n11. While doing this pranayama, first the breath speed should be slow, then the medium and after that breathe at high speed and leave."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

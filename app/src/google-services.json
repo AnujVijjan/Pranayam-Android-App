@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "232318878090",
+    "firebase_url": "https://pranayama-a422f-default-rtdb.firebaseio.com",
+    "project_id": "pranayama-a422f",
+    "storage_bucket": "pranayama-a422f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232318878090:android:663060be8b96da2a28c873",
+        "android_client_info": {
+          "package_name": "com.example.pranayama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232318878090-ner60umju7vnfoigo75epdssj9tgfmdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNyOa_XxqbG1pKngjwTq2QwJhwEs-v3vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232318878090-ner60umju7vnfoigo75epdssj9tgfmdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

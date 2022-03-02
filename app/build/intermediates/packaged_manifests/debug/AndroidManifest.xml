@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pranayama"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/home_page_image"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pranayama.SettingsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.reportActivity"
+            android:configChanges="uiMode"
+            android:label="@string/report" />
+        <activity
+            android:name="com.example.pranayama.MBreathingBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.MBreathingInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.MBreathingHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.UjjayiBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.UjjayiHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.UjjayiInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.SheetaliInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.SheetaliBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.SheetaliHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.BhastrikaInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.BhastrikaBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.BhastrikaHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.ChandraBhedanaInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.ChandraBhedanaBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.ChandraBhedanaHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.SuryaBhedanaInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.SuryaBhedanaBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.SuryaBhedanaHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.BhramariInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.BhramariBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.BhramariHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.KapalbhatiHelpActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.KapalbhatiInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.KapalbhatiBenefitsActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.AnulomVilomInfoActivity"
+            android:configChanges="uiMode" />
+        <activity
+            android:name="com.example.pranayama.AnulomVilomBenefitsActivity"
+            android:configChanges="uiMode" />
+
+        <meta-data
+            android:name="android.support.UI_OPTIONS"
+            android:value="splitActionBarWhenNarrow" />
+
+        <activity
+            android:name="com.example.pranayama.MBreathingCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/m_breathing" />
+        <activity
+            android:name="com.example.pranayama.MBreathingActivity"
+            android:configChanges="uiMode"
+            android:label="@string/m_breathing" />
+        <activity
+            android:name="com.example.pranayama.UjjayiCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/ujjayi" />
+        <activity
+            android:name="com.example.pranayama.UjjayiActivity"
+            android:configChanges="uiMode"
+            android:label="@string/ujjayi" />
+        <activity
+            android:name="com.example.pranayama.SheetaliCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/sheetali" />
+        <activity
+            android:name="com.example.pranayama.SheetaliActivity"
+            android:configChanges="uiMode"
+            android:label="@string/sheetali" />
+        <activity
+            android:name="com.example.pranayama.BhastrikaCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/bhastrika" />
+        <activity
+            android:name="com.example.pranayama.BhastrikaActivity"
+            android:configChanges="uiMode"
+            android:label="@string/bhastrika" />
+        <activity
+            android:name="com.example.pranayama.ChandraBhedanaCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/chandra_bhedana" />
+        <activity
+            android:name="com.example.pranayama.ChandraBhedanaActivity"
+            android:configChanges="uiMode"
+            android:label="@string/chandra_bhedana" />
+        <activity
+            android:name="com.example.pranayama.SuryaBhedanaCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/surya_bhedana" />
+        <activity
+            android:name="com.example.pranayama.SuryaBhedanaActivity"
+            android:configChanges="uiMode"
+            android:label="@string/surya_bhedana" />
+        <activity
+            android:name="com.example.pranayama.BhramariCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/bhramari" />
+        <activity
+            android:name="com.example.pranayama.BhramariActivity"
+            android:configChanges="uiMode"
+            android:label="@string/bhramari" />
+        <activity
+            android:name="com.example.pranayama.KapalbhatiCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/kapalbhati" />
+        <activity
+            android:name="com.example.pranayama.KapalbhatiActivity"
+            android:configChanges="uiMode"
+            android:label="@string/kapalbhati" />
+        <activity
+            android:name="com.example.pranayama.MainActivity"
+            android:configChanges="uiMode"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pranayama.ActivityPranayam"
+            android:configChanges="uiMode"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.pranayama.ActivityAnulomVilom"
+            android:configChanges="uiMode"
+            android:label="@string/anulom_vilom" />
+        <activity
+            android:name="com.example.pranayama.AnulomVilomCountDownActivity"
+            android:configChanges="uiMode"
+            android:label="@string/anulom_vilom" />
+        <activity
+            android:name="com.example.pranayama.ActivityAnulomVilomHelp"
+            android:configChanges="uiMode"
+            android:label="@string/anulom_vilom" />
+        <activity
+            android:name="com.example.pranayama.SittingPoseActivity"
+            android:configChanges="uiMode"
+            android:label="@string/menu_sitting_pose" />
+        <activity
+            android:name="com.example.pranayama.MudrasActivity"
+            android:configChanges="uiMode"
+            android:label="@string/menu_mudras" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.pranayama.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.pranayama.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="2.0.1" />
+
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+        <GridLayout android:id="@+id/mainGrid"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="1200dp"
+            android:layout_weight="8"
+            android:rowCount="3"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins">
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:id="@+id/anulom_vilom" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:background="@drawable/anulom_vilom" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Anulom Vilom" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/kapalbhati" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView 
+                        android:layout_gravity="center" android:background="@drawable/kapalbhati" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Kapalbhati" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/bhramari" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/bhramari" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Bhramari" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/surya_bhedana" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/anulom_vilom" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Surya Bhedana" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/chandra_bhedana" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/anulom_vilom" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Chandra Bhedana" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/bhastrika" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/kapalbhati" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Bhastrika" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/sheetali" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/sheetali" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Sheetali" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/ujjayi" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/ujjayi" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Ujjayi" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/mbreathing" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/m_breathing" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Meditative Breathing" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:foreground="@drawable/lock_exercise" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/udgeeth_gif" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Udgeeth" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" android:foreground="@drawable/lock_exercise" android:layout_rowWeight="1" android:layout_columnWeight="1" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+                <RelativeLayout android:orientation="vertical" android:background="@color/primaryCardBackgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:background="@drawable/udgeeth_gif" android:layout_width="120dp" android:layout_height="110dp" android:layout_marginTop="16dp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+                    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/primaryTitleColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" android:text="Bahya" android:layout_weight="1" android:layout_alignParentBottom="true" android:textAlignment="center"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

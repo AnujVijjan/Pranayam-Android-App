@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp">
+            <TextView android:textSize="21dp" android:textStyle="bold" android:textColor="#aa0909" android:layout_width="match_parent" android:layout_height="match_parent" android:text="How to Start Meditative Breathing Pranayam: "/>
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:text="         \n1. Sit in a comfortable pose. We advise you to sit with your backbone straight and make sure you fill breath in lungs.  \n\n2. In Meditative breathing, inhalation is done through both nostrils and exhalation is done through the mouth.  \n\n3. Choose a level of exercise, you can easily keep up with and breathe comfortably.  \n\nSet your value for Inhale, Exhale, and Hold. \nDefault ratio of Inhale, Hold and Exhale is 4:7:8 and is not to be changed. This ratio of 4:7:8 is mentioned in most classic yoga texts.  \n\n4. Close Your Eyes."/>
+            <TextView android:textSize="21dp" android:textStyle="bold" android:textColor="#aa0909" android:layout_width="match_parent" android:layout_height="match_parent" android:text="\nHow Does It Work?"/>
+            <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:text="  \n\n1. In the beginning exhale completely through the mouth, making a ‘whoosh’ sound.  \n\n2. Now close your mouth and inhale quietly through both nostrils for a count of 4.  \n\n3. Then hold your breath for a count of 7.  \n\n4. Now exhale completely through the mouth, making the ‘whoosh’ sound for a count of 8.  \n\n5. This completes one round. Now inhale once again and repeat the steps for a total of 4 rounds.  \n\n6. Use full seconds while inhaling and exhaling smoothly."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

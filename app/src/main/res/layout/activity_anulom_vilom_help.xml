@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp">
+            <TextView
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textColor="#aa0909"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nHow to Start Anulom Vilom Pranayam: "/>
+            <TextView
+                android:id="@+id/description"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="
+                \n1. First of all, sit in a comfortable cross-legged position.
+                \n\n2. Close the right nostril with your right thumb.
+                \n\n3. Inhale deeply through the left nostril.
+                \n\n4. Close the left nostril with the ring finger of your right hand as you release the right nostril.
+                \n\n5. Exhale slowly through your right nostril.
+                \n\n6. Keeping the left nostril closed, inhale deeply through your right nostril.
+                \n\n7. Seal the right nostril again with your thumb, then release the left nostril.
+                \n\n8. Exhale out of the left nostril. You should now be in the original position, with the thumb sealing the right nostril.
+                \n\n9. Finally repeat the process ten times, gradually increasing the number of repetitions.
+                \n\n10. Once you gain full breath control during Nadi Shodhana, begin to hold your breath for a moment at the top and bottom of each inhale/exhale cycle. Never strain; let this next stage develop gradually."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
